@@ -1,5 +1,65 @@
-## WebSocketMessageBrokerConfigurer Interface
+# 🚀 Spring Boot Real-Time Chat Application
 
-- It defines methods for configuring message handling with simple messaging protocols (e.g., STOMP) from WebSocket clients.
-- WebSocket enables real-time connections.
-- STOMP is used to organize and route messages within that connection.
+A full-stack real-time chat application** built using Spring Boot, WebSockets (STOMP), and Thymeleaf, enabling instant bi-directional communication between multiple users.
+
+This project demonstrates real-time messaging, WebSocket configuration, frontend-backend integration, and a clean MVC architecture.
+
+---
+
+## ✨ Features
+
+- 🔄 Real-time messaging using WebSockets
+- 🧵 STOMP protocol for message handling
+- 👥 Multiple users support
+- ⚡ Instant message broadcasting
+- 📱 Simple & responsive UI
+- 🧩 Clean separation of backend and frontend logic
+- 📦 Maven-based project structure
+
+---
+
+## 🛠️ Tech Stack
+
+### 🔹 Backend (Server-Side)
+- Spring Boot
+- Spring WebSocket
+- Spring Messaging (STOMP Protocol)
+- Thymeleaf (Template Engine)
+
+### 🔹 Frontend (Client-Side)
+- Thymeleaf
+- JavaScript (ES6)
+- SockJS
+- STOMP.js
+- HTML5 / CSS3
+- Bootstrap
+
+### 🔹 Development & Build Tools
+- Java
+- Maven
+- IntelliJ IDEA
+- Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+Springboot_Chat_App-
+│
+├── src/main/java
+│   └── com.chat.app
+│       ├── config        # WebSocket configuration
+│       ├── controller    # Message controllers
+│       ├── model         # Chat message models
+│       └── ChatApplication.java
+│
+├── src/main/resources
+│   ├── static            # JS, CSS
+│   ├── templates         # Thymeleaf HTML pages
+│   └── application.yml
+│
+├── pom.xml
+└── README.md
+
+
+
